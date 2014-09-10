@@ -14,6 +14,7 @@
 		E4996DFC19C0D35B00978842 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4996DFB19C0D35B00978842 /* Images.xcassets */; };
 		E4996DFF19C0D35B00978842 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4996DFD19C0D35B00978842 /* LaunchScreen.xib */; };
 		E4996E0B19C0D35B00978842 /* MahlzeitenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4996E0A19C0D35B00978842 /* MahlzeitenTests.swift */; };
+		E4996E1619C0DCB000978842 /* MealRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4996E1519C0DCB000978842 /* MealRecord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		E4996E0419C0D35B00978842 /* MahlzeitenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MahlzeitenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4996E0919C0D35B00978842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4996E0A19C0D35B00978842 /* MahlzeitenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MahlzeitenTests.swift; sourceTree = "<group>"; };
+		E4996E1519C0DCB000978842 /* MealRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealRecord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		E4996DEF19C0D35B00978842 /* Mahlzeiten */ = {
 			isa = PBXGroup;
 			children = (
+				E4996E1419C0DBC000978842 /* Models */,
 				E4996DF219C0D35B00978842 /* AppDelegate.swift */,
 				E4996DF419C0D35B00978842 /* MasterViewController.swift */,
 				E4996DF619C0D35B00978842 /* DetailViewController.swift */,
@@ -113,6 +116,14 @@
 				E4996E0919C0D35B00978842 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4996E1419C0DBC000978842 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E4996E1519C0DCB000978842 /* MealRecord.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4996DF719C0D35B00978842 /* DetailViewController.swift in Sources */,
+				E4996E1619C0DCB000978842 /* MealRecord.swift in Sources */,
 				E4996DF519C0D35B00978842 /* MasterViewController.swift in Sources */,
 				E4996DF319C0D35B00978842 /* AppDelegate.swift in Sources */,
 			);
@@ -343,6 +355,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Mahlzeiten/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,6 +366,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Mahlzeiten/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
