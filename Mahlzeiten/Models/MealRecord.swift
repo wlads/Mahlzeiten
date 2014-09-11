@@ -10,6 +10,8 @@ import Foundation
 import UIKit
 
 class MealRecord {
+    init() {}
+    
     var date  : NSDate = NSDate.date();
     var photo : UIImage?;
     var event : NSString = "";
